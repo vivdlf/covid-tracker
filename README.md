@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt=" Logo" src="https://github.com/vivdlf/covid-tracker/blob/main/images/favicon-logo.ico" width="100" />
+  <img alt=" Logo" src="https://github.com/vivdlf/covid-tracker/blob/main/images/favicon-logo.ico"  />
 </p>
 <h1 align="center">
   COVID-19 Tracker
@@ -16,15 +16,10 @@ and to people who have come in contact with them.
 
 </p>
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">
+  <a href="">
     <img alt="Version" src="https://vsmarketplacebadge.apphb.com/version/brittanychiang.halcyon-vscode.svg" />
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">
-    <img alt="Downloads" src="https://vsmarketplacebadge.apphb.com/downloads/brittanychiang.halcyon-vscode.svg" />
-  </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">
-    <img alt="Installs" src="https://vsmarketplacebadge.apphb.com/installs/brittanychiang.halcyon-vscode.svg" />
-  </a>
+  
 </p>
 
 ## Getting Started
