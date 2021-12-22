@@ -1,0 +1,46 @@
+/* 
+Written by: Viviannie De La Fuente
+Tested by: Viviannie De La Fuente
+Debugged by: Viviannie De La Fuente 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body{
+    background-color:  #e8e4ec;
+    font-family: poppins, arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    position: absolute;
+    top: 30px;
+    left: 85px;
+    z-index:-1;
+}
+h1{
+    color: #42425D;
+    font-weight: bolder;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+h3{
+    color: #42425D;
+    font-weight: bolder;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+}
+.img-w{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.details{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+ ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    line-height: 0.4in;
+}

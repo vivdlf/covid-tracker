@@ -1,0 +1,119 @@
+/* 
+Written by: Viviannie De La Fuente
+Tested by: Viviannie De La Fuente
+Debugged by: Viviannie De La Fuente 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.b{
+	justify-content: center;
+	align-items: center;
+	background-color:  #e8e4ec;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.box{
+	width: 400px;
+	height: 40px;
+	background-color: white;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+    position:relative;
+    float:center;
+    top:20px;
+    left: 400px;
+
+}
+
+.box > i {
+	font-size: 20px;
+	color: #777;
+}
+
+.box > input{
+	flex: 1;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+	font-weight: bolder;
+}
+.table, .table th{
+	font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+	float:center;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+	border-spacing: 104px 0;
+	padding: 15px;
+	line-height: .45in;
+}
+.btn-l{
+	position: relative;
+     float: right;
+     right:250px;
+}
+.table th, .table tr{
+	text-align: center;
+}
+.table th{
+	font-weight: bolder;
+}
+.btn{
+    position:relative;
+    background-color: #545474;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    
+    text-transform: uppercase;
+	top: 0.5px;
+    border-radius: 12px;
+    z-index:1;
+}
+.btn:hover {
+    background: #42425D;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+tr.border_bottom td {
+	border-bottom: 1px solid black;
+  }
+.container{
+	position: relative;
+	text-align: left;
+	left: 65px;
+
+}
+.t, .t th{
+	font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+	float:center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1x;
+	border-collapse: separate;
+  	border-spacing: 30px 0;
+	line-height: .45in;
+}

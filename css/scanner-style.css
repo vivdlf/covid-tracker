@@ -1,0 +1,116 @@
+/* 
+Written by: Viviannie De La Fuente
+Tested by: Viviannie De La Fuente
+Debugged by: Viviannie De La Fuente 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+/* Back Button */
+.btn-back {
+    position:relative;
+    background-color: #545474;
+    border: none;
+    color: #fff;
+    padding: 13px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    top:15px;
+    left: 15px;
+    z-index:1;
+}
+.btn-back:hover {
+    background: #42425D;
+    cursor: pointer;
+}
+
+.btn-back:focus {
+    outline: none;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: poppins, arial, sans-serif;
+}
+body{
+   background-color: #e8e4ec;
+   font-family: poppins, arial, sans-serif;
+   font-weight: normal;
+   color: black;
+}
+.page-info{
+    text-align: center;
+}
+.btn-learn {
+    position:relative;
+    background-color: #545474;
+    border: none;
+    color: #fff;
+    padding: 13px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    top:15px;
+    left: 15px;
+    z-index:1;
+}
+.btn-learn:hover {
+    color: #fff;
+    background: #42425D;
+    cursor: pointer;
+}
+
+.btn-learn:focus {
+    outline: none;
+}
+.wrapper{
+    font-size: 17px;
+    width:1100px;
+    height:650px;
+    text-align: center;
+    background-color: #e8e4ec;
+    border: 5px none ;
+    border-radius:20px 18px 18px 18px; 
+    position: absolute;
+    top: 58%;
+    left: 50%; 
+    transform: translate(-50%, -50%);  
+    z-index: -1;
+} 
+
+.scanner{
+    text-align: left;
+    font-size: 17px;
+    width: 1000px;
+    height:750px;
+    position: absolute;
+    top: 75%;
+    left: 50%;  
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+.img-scan{
+    text-align: left;
+}
+
+img{
+    position: absolute;
+    top: 49%;
+    left: 70%;
+    z-index: 1;
+    border: 1px none solid;
+    
+}
+.learn-more{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}

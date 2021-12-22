@@ -1,0 +1,94 @@
+/* 
+Written by: Viviannie De La Fuente
+Tested by: Viviannie De La Fuente
+Debugged by: Viviannie De La Fuente 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body{
+   background-color:  #64789b; 
+   font-family: poppins, arial, sans-serif;
+   font-weight: normal;
+   color: black;
+
+}
+input{
+    background-color: white;
+}
+.tit{
+    position: absolute;
+    color:#42425D;
+    font-weight: bolder;
+    top: -4%;
+
+    /* top:1%; */
+    text-align: left;
+    font-size: 18px;
+}
+h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.img-login{
+    text-align: left;
+}
+.container-info{
+    text-align: left;
+    position: absolute;
+    top: 8%;
+    left: 58%;
+}
+img{
+    width:500px;
+    height:400px;
+}
+/*light color  #e8e4ec
+  bright color #64789b*/
+.wrapper{
+    font-size: 17px;
+    width: 950px;
+    height:500px;
+    background-color: #e8e4ec;
+    border: 5px none ;
+    border-radius:20px 18px 18px 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.wrapper-signup{
+    font-size: 17px;
+    line-height: 0.4in;
+    width: 1000px;
+    height:750px;
+    max-height: 1000px;
+    background-color: #e8e4ec;
+    border: 5px none;
+    border-radius:20px 18px 18px 18px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+/* button */
+.btn {
+    width:100px;
+    padding: 3%;
+    background: #545474;
+    border-bottom: 2px solid #545474;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background: #42425D;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}

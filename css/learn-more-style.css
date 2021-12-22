@@ -1,0 +1,94 @@
+/* 
+Written by: Viviannie De La Fuente
+Tested by: Viviannie De La Fuente
+Debugged by: Viviannie De La Fuente 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+/* Back Button */
+.btn-back {
+    position:relative;
+    background-color: #545474;
+    border: none;
+    color: #fff;
+    padding: 13px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    top:15px;
+    left: 15px;
+    z-index:1;
+}
+.btn-back:hover {
+    background: #42425D;
+    cursor: pointer;
+}
+
+.btn-back:focus {
+    outline: none;
+}
+ *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #e8e4ec;
+    font-family: poppins, arial, sans-serif;
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+
+.logo img{
+    position: relative; 
+    text-align: left;
+    /* top: 15px; */
+    left:150px;
+    z-index:-1;
+}
+.details{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    /* font-weight:bold; */
+    position: relative; 
+    left:75px;
+    z-index:-1;
+}
+h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+.Topright{
+    position: relative; 
+    text-align:right;
+    bottom:2060px;
+    left: 0px;
+    z-index:-1;
+}
+.Botright{
+    position: relative; 
+    text-align:right;
+    bottom:1815px;
+    left: 65px;
+    z-index:-1;
+}
+hr{
+    position: relative; 
+    left:0;
+    z-index:-1;
+}
+
+

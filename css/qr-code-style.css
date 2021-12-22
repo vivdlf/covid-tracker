@@ -1,0 +1,77 @@
+/* 
+Written by: Viviannie De La Fuente
+Tested by: Viviannie De La Fuente
+Debugged by: Viviannie De La Fuente 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    position: relative;
+    text-align: left;
+    left: 330px;
+} 
+.btn {
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #545474;
+    border: none;
+    color: #fff;
+    padding: 13px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    top:15px;
+}
+.btn:hover {
+    color: #fff;
+    background: #42425D;
+    cursor: pointer;
+}
+.btn:focus {
+    outline: none;
+}
+#popup {
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 400px;
+    height: 350px;
+    display: block;
+    position: fixed;
+    bottom: -450px;
+    right: 0;
+    font-size: 13.5px;
+    line-height: 1.3em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.2s bottom;
+}
+#popup p {
+    margin: 15px 20px; 
+}
+.note {
+    display: block;
+    position: fixed;
+    bottom: 2px;
+    right: 6px;
+    text-align: right;
+    font-size: 14px;
+    transition: 0.2s color;
+    z-index: 3; 
+}
+.note:hover {
+      text-decoration: none; 
+}
+#close-this {
+    display: none; 
+    color: #42425D;
+}
+#reminder{
+    color: #42425D;
+}

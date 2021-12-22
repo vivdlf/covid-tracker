@@ -1,0 +1,166 @@
+/* 
+Written by: Viviannie De La Fuente
+Tested by: Viviannie De La Fuente
+Debugged by: Viviannie De La Fuente 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+:root {
+    --error-color: #dc3545;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family:  poppins, arial, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 1em;
+    width: 400px;
+}
+
+.form {
+    padding: 10px 20px;
+}
+
+.form h1 {
+    font-size:28px;  
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin-bottom: 5px;
+}
+
+.form-field label {
+    /* display: block; */
+    color: black;
+    margin-bottom: 5px;
+}
+
+.form-gender-field label {
+    /* display: block; */
+    color: #777;
+    margin-bottom: 5px;
+}
+
+span.gender-label {
+    /* display: block; */
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.form-gender-field  {
+    border: solid 2px #f0f0f0;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    /* display: block; */
+    /* width: 100%; */
+}
+
+.form-field input, select {
+    border: solid 2px #f0f0f0;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    /* display: block; */
+    width: 100%;
+}
+
+.form-field select {
+    font-size: 14px;
+    color: #777;
+    
+}
+
+.form-field input[type=date] {
+    font-size: 14px;
+    color: #777;
+    
+}
+
+title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.form-field input:focus {
+    outline: none;
+}
+
+
+legend {
+	color: black;
+    font-weight: bold;
+	font-size: 20px;
+	font-weight: bold;
+    line-height: .45in;
+	padding-bottom: 10px;
+
+}
+
+.form-field.error input {
+    border-color: var(--error-color);
+}
+
+.form-gender-field.error  {
+    border-color: var(--error-color);
+}
+
+.form-field.success input {
+    border-color: var(--success-color);
+}
+
+.form-gender-field.success  {
+    border-color: var(--success-color);
+}
+
+.form-field small {
+    color: var(--error-color);
+}
+
+.form-gender-field small {
+    color: var(--error-color);
+}
+
+/* button */
+.btn {
+    width: 50%;
+    padding: 3%;
+    background: #545474;
+    border-bottom: 2px solid #545474;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #42425D;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
