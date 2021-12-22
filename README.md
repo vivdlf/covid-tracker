@@ -16,8 +16,8 @@ and to people who have come in contact with them.
 
 </p>
 <p align="center">
-  <a href="">
-    <img alt="Version" src="https://vsmarketplacebadge.apphb.com/version/brittanychiang.halcyon-vscode.svg" />
+  <a href="https://github.com/vivdlf/covid-tracker/blob/main/images/Untitled.png">
+    <img alt="Version" src="https://github.com/vivdlf/covid-tracker/blob/main/images/Untitled.png" />
   </a>
   
 </p>
